@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url("https://images.pexels.com/photos/769525/pexels-photo-769525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");background-size:cover ;
+    background-position: center;
+    font-weight: bold;
+}   
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+} 
+p{
+    font-size: 12px;
+} 
+.newyear{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 400px;
+    margin-top: 30px;
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+}
+.box h2{
+    font-size: 20px;
+}
+box small{
+    font-size: 10px;
+}
+@media (min-width:576px) {
+    .newyear{
+        font-size:100px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .box h2{
+       font-size: 30px;
+    }
+    .box {
+        width: 100vw;
+        height: 70vh;
+    }
+    .box small{
+        font-size: 10px;
+    }
+
+}
+@media (min-width:768px) {
+    .newyear{
+        font-size:150px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .box h2{
+       font-size: 50px;
+    }
+    .box {
+        width: 150vw;
+        height: 100vh;
+    }
+    .box small{
+        font-size: 20px;
+    }
+    
+}
+ 
